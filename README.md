@@ -15,7 +15,7 @@ Como a linguagem Java não tem herança múltipla, as interfaces ajudam nessa qu
 
 É usado em vários contextos: classes, métodos, atributos e variáveis.
 
-Classes final
+  <h3>Classes final</h3>
 
 Uma classe com este modificador não pode ser estendida, isto é, não pode ter classes que herdam dela.
 
@@ -24,14 +24,14 @@ Isso é importante para garantir que uma determinada implementação não tenha 
 Tipos básicos do Java como String e Integer são final porque se espera que o conteúdo não possa ser modificado. O problema é que seu alguém pudesse criar uma subclasses de String, esta implementação poderia passar a ser mutável. Uma String mutável seria o caos na terra para implementações, pois vários pressupostos que os desenvolvedores usam no dia-a-dia seriam simplesmente desfeitos.
 
 
-Método final
+  <h3>Método final</h3>
 
 É um método que não pode ser sobrescrito nas subclasses.
 
 Use para garantir que um determinado algoritmo não possa ser modificado pelas subclasses.
 
 
-Atributo final
+  <h3>Atributo final</h3>
 
 Um atributo final de uma classe pode ter seu valor atribuído uma única vez, seja na própria declaração ou no construtor.
 
@@ -40,7 +40,7 @@ Use isso para garantir que um valor ou referência de objeto não vai mudar. Vol
 Se você tem um algoritmo que usa esse variável, você pode armazenar valores calculados sem a preocupação do valor mudar.
 
 
-Variáveis final
+  <h3>Variáveis final</h3>
 
 Use para garantir que você não está modificando o valor indevidamente.
 
